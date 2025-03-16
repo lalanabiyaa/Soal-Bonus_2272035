@@ -1,0 +1,177 @@
+body {
+   font-family: Verdana, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: #f0f0f0;
+}
+
+h1 {
+   font-size: 3em;
+}
+
+p {
+   font-size: 1.2em;
+}
+
+.full-page {
+   width: 100%;
+   margin-top: 50px;
+}
+
+table {
+   width: 90%;
+   margin: auto;
+   border-collapse: collapse;
+   margin-top: 50px;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+td,
+th {
+   padding: 10px;
+}
+
+td:first-child {
+   width: 90%;
+}
+td:last-child {
+   width: 40%;
+   padding-left: 20px;
+}
+
+.html {
+   background-color: #d9eee1;
+}
+.css {
+   background-color: #fff4a3;
+}
+
+.javascript {
+   background-color: #f3ecea;
+}
+
+.navbar {
+   background-color: #282b30;
+   text-align: center;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 1000;
+   margin-top: 0;
+}
+
+.navbar td {
+   width: 33.33%;
+}
+
+.nav-item {
+   color: white;
+   text-decoration: none;
+   font-size: 16px;
+   display: block;
+   width: 100%;
+   padding: 14px 0;
+}
+
+.nav-item:hover {
+   background-color: #1e2124;
+}
+
+.nav-item:active {
+   background-color: #7289da;
+}
+
+.content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+}
+
+.buttons {
+   display: flex;
+   margin: auto;
+}
+
+.article {
+   width: 50%;
+   right: 0;
+}
+
+.btn-green,
+.btn-black,
+.btn-pink {
+   font-weight: bold;
+   border: none;
+   padding: 15px;
+   border-radius: 20px;
+   font-size: 1.2em;
+   cursor: pointer;
+   display: inline-block;
+   margin-top: 10px;
+   gap: 2rem;
+   width: 230px;
+   text-align: center;
+   white-space: nowrap;
+}
+
+.btn-green {
+   background-color: #04aa6d;
+   color: white;
+}
+.btn-black {
+   background-color: #1e2124;
+   color: white;
+}
+
+.btn-pink {
+   background-color: #ffc0c7;
+   color: black;
+}
+
+.btn-green:hover,
+.btn-black:hover,
+.btn-pink:hover {
+   opacity: 0.8;
+}
+
+.btn-try {
+   background-color: #04a96d;
+   color: white;
+   font-weight: bold;
+   border: none;
+   padding: 10px;
+   border-radius: 20px;
+   font-size: 14px;
+   cursor: pointer;
+   display: inline-block;
+   margin-top: 10px;
+   width: 150px;
+   text-align: center;
+   white-space: nowrap;
+}
+
+.example {
+   background-color: #38444d;
+   padding: 20px;
+   border-radius: 7px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+   width: 700px;
+   color: white;
+   text-align: left;
+   margin: 50px auto;
+}
+
+.code-box {
+   background-color: #15202b;
+   padding: 40px;
+   border-radius: 5px;
+   overflow-x: auto;
+}
+
+code {
+   font-family: monospace;
+   color: blue;
+}
